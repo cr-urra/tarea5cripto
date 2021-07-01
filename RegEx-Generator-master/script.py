@@ -10,7 +10,7 @@ while(True):
         host = 'imap.gmail.com'
         imap = imaplib.IMAP4_SSL(host)
 
-        imap.login('cr.urra6@gmail.com', 'lavidanoesloqueunopiensa')
+        imap.login('*****@*****.*****', '************')
         imap.select('Inbox')
         mails = []
         mails.append('noreply@redditmail.com')
